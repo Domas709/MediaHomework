@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileUploaderPrototype", "FileUploaderPrototype\FileUploaderPrototype.csproj", "{843DE71E-1872-44CA-8423-6359B8C5646B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileUploaderPrototype.DataAccess", "FileUploaderPrototype.DataAccess\FileUploaderPrototype.DataAccess.csproj", "{DFD2CD41-F172-401E-9238-836EAD3DBB51}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileUploaderPrototype.Services", "FileUploaderPrototype.Services\FileUploaderPrototype.Services.csproj", "{563559DA-1A89-4084-9509-F933214ED656}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileUploaderPrototype.Domain", "FileUploaderPrototype.Domain\FileUploaderPrototype.Domain.csproj", "{0FBA8EF3-2A26-489C-8F74-202D106C3833}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{843DE71E-1872-44CA-8423-6359B8C5646B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{843DE71E-1872-44CA-8423-6359B8C5646B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{843DE71E-1872-44CA-8423-6359B8C5646B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{843DE71E-1872-44CA-8423-6359B8C5646B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DFD2CD41-F172-401E-9238-836EAD3DBB51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFD2CD41-F172-401E-9238-836EAD3DBB51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFD2CD41-F172-401E-9238-836EAD3DBB51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFD2CD41-F172-401E-9238-836EAD3DBB51}.Release|Any CPU.Build.0 = Release|Any CPU
+		{563559DA-1A89-4084-9509-F933214ED656}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{563559DA-1A89-4084-9509-F933214ED656}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{563559DA-1A89-4084-9509-F933214ED656}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{563559DA-1A89-4084-9509-F933214ED656}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0FBA8EF3-2A26-489C-8F74-202D106C3833}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FBA8EF3-2A26-489C-8F74-202D106C3833}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FBA8EF3-2A26-489C-8F74-202D106C3833}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FBA8EF3-2A26-489C-8F74-202D106C3833}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk.Worker">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <UserSecretsId>dotnet-FileUploaderPrototype-8DBD4CA9-E201-482C-8C11-0C39E5AD4700</UserSecretsId>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="EntityFramework" Version="6.4.4" />
+        <PackageReference Include="Microsoft.ApplicationInsights.WorkerService" Version="2.21.0" />
+        <PackageReference Include="Microsoft.Extensions.Hosting" Version="6.0.1" />
+        <PackageReference Include="Serilog.Extensions.Hosting" Version="5.0.1" />
+        <PackageReference Include="Serilog.Sinks.ApplicationInsights" Version="4.0.0" />
+        <PackageReference Include="Serilog.Sinks.Console" Version="4.1.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\FileUploaderPrototype.DataAccess\FileUploaderPrototype.DataAccess.csproj" />
+      <ProjectReference Include="..\FileUploaderPrototype.Domain\FileUploaderPrototype.Domain.csproj" />
+      <ProjectReference Include="..\FileUploaderPrototype.Services\FileUploaderPrototype.Services.csproj" />
+    </ItemGroup>
+</Project>
